@@ -1,24 +1,39 @@
 # Movies_ETL
 
 # Overview
-Extract, Transform, Load
+Creating an ETL (Extract, Transform, and Load) pipeline from raw data to a SQL database. 
 
 ## Purpose
 
-Britta is excited to prepare for the hackathon. In data analysis, a hackathon is an event where teams of analysts collaborate to work intensively on a project, using data to solve a problem. Hackathons generally last several days and teams work around the clock on their projects.
+Amazing Prime Video performed ETL on several movie datasets to predict popular films for their streaming service. Data was gathered from both Wikipedia and Kaggle, combined and saved into a SQL database. Amazing Prime loves the dataset and wants to keep it updated on a daily basis. Britta needs your help to create an automated pipeline that takes in new data, performs the appropriate transformations, and loads the data into existing tables. You’ll need to refactor the code from this module to create one function that takes in the three files—Wikipedia data, Kaggle metadata, and the MovieLens rating data—and performs the ETL process by adding the data to a PostgreSQL database.
+ 
+# Resources
+wikipedia-movies.json
+movies_metadata.csv
+ratings.csv
 
-Britta needs to gather data from both Wikipedia and Kaggle, combine them, and save them into a SQL database so that the hackathon participants have a nice, clean dataset to use. To do this, she will follow the ETL process: extract the Wikipedia and Kaggle data from their respective files, transform the datasets by cleaning them up and joining them together, and load the cleaned dataset into a SQL database.
+-- JSON library was used to extract the Wikipedia data.
+-- Pandas library was used to create DataFrames.
+-- NumPy library was used for converting data types.
+-- Jupyter Notebook was used to explore the data. 
+-- Code was copied to a Python script.
 
-## Resources
-ETL is a flexible process for moving data. It can be as simple as a one-time migration from one database to another, or as complex as an ongoing automated collection of messy, real-time data from many different sources.
+NOTE: The read_json method that comes built into the Pandas library only works well for data that is already clean—for example, when the JSON data has every field filled in every time it is returned. We call data like this "flat." Most data you'll work with in real life won't come to you in a flat format. One great thing about the JSON format is it's really flexible, and it can handle raw, messy data. But if you try to read raw, messy JSON data directly into a DataFrame, the DataFrame will be a mess too. It's very difficult to find and fix corrupted data in messy DataFrames, and it's also difficult to consolidate columns without headaches. As you may have guessed, the type of data we get from doing a scrape of Wikipedia is pretty messy, so it's easier to load the raw JSON as a list of dictionaries before converting it to a DataFrame.
 
-### ETL Process
-- Extract Phase - In the Extract phase, data is pulled from external or internal sources, possibly disparate. The sources could be flat files, scraped webpages in HTML or JavaScript Object Notation (JSON) format, SQL tables, or even streams of sensor data. The extracted data is held in a staging area in between the data sources and data targets. For Britta, you'll extract scraped Wikipedia data stored as a JSON, and Kaggle data stored in CSVs. Now that we've loaded the Wikipedia scrape, Britta wants us to include ratings data. However, she knows that her employer, Amazing Prime, won't want to give out their proprietary ratings data to all the hackathon teams. Luckily, she found a dataset on Kaggle that contains ratings data from MovieLens, a site run by the GroupLens research team, which has over 20 million ratings.
+# Challenge Deliverables
 
-- Transformation Phase - After data is extracted, there are many transformations it may need to go through. The data may need to be filtered, parsed, translated, sorted, interpolated, pivoted, summarized, aggregated, merged, or more. The goal is to create a consistent structure in the data. Without a consistent structure in our data, it's almost impossible to perform any meaningful analysis. The transformation phase can be accomplished with Python and Pandas, pure SQL, or specialized ETL tools like Apache Airflow or Microsoft SQL Server Integrated Services (SSIS). Python and Pandas are especially good for prototyping an ETL transformation because they provide flexibility and interactivity (especially in a Jupyter Notebook), without enforcing any complicated frameworks. We will use Python and Pandas to explore, document, and perform our data transformation.
+## Deliverable 1: 
+An ETL Function was written to read three data files and three separate dataframes were created.
+See ETL_function_test file for code.
 
-- Loading Phase - Finally, after the data is transformed into a consistent structure, it's loaded into the data target. The data target can be a relational database like PostgreSQL, a non-relational database like MongoDB that stores individual documents, or a data warehouse like Amazon Redshift that optimizes performance specifically for analytics. (We'll look at non-relational databases in more detail later.) Britta has determined that a SQL database is the best solution for sharing the data in the hackathon, so we'll be loading our data into a PostgreSQL table. SQL databases are often the targets of ETL processes, and because SQL is so ubiquitous, even databases that don't use SQL often have SQL-like interfaces. 
+## Deliverable 2: 
+The Wikipedia Data was extracted and transformed.
+See ETL_clean_wiki_movies file for code.
 
-# Results
+## Deliverable 3: 
+The Kaggle data was extracted and transformed.
+See ???
 
-# Summary
+## Deliverable 4: 
+The Movie Database was created.
+See ???
