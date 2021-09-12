@@ -32,7 +32,7 @@ See ETL_clean_wiki_movies file for code.
 
 ## Deliverable 3: 
 The Kaggle data was extracted and transformed.
-See ???
+See ETL_clean_kaggle_data file for code.
 
 ## Deliverable 4: 
 The Movie Database was created.
