@@ -24,7 +24,7 @@ NOTE: The read_json method that comes built into the Pandas library only works w
 
 ## Deliverable 1: 
 An ETL Function was written to read three data files and three separate dataframes were created.
-See ETL_function_test file for code.
+See ETL_function_test file (https://github.com/KimberlyCrawford/Movies_ETL/blob/main/ETL_function_test.ipynb) for code.
 
 ## Deliverable 2: 
 The Wikipedia Data was extracted and transformed.
