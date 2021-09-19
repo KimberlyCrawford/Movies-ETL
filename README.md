@@ -26,13 +26,25 @@ NOTE: The read_json method that comes built into the Pandas library only works w
 An ETL Function was written to read three data files and three separate dataframes were created.
 See ETL_function_test file (https://github.com/KimberlyCrawford/Movies_ETL/blob/main/ETL_function_test.ipynb) for code.
 
+![blank.png](https://github.com/KimberlyCrawford/PyBer_Analysis/blob/main/Resources/PyBer_sum_df.png)
+
+![blank.png](https://github.com/KimberlyCrawford/PyBer_Analysis/blob/main/Resources/PyBer_sum_df.png)
+
+![blank.png](https://github.com/KimberlyCrawford/PyBer_Analysis/blob/main/Resources/PyBer_sum_df.png)
+
+![blank.png](https://github.com/KimberlyCrawford/PyBer_Analysis/blob/main/Resources/PyBer_sum_df.png)
+
 ## Deliverable 2: 
 The Wikipedia Data was extracted and transformed.
 See ETL_clean_wiki_movies file (https://github.com/KimberlyCrawford/Movies_ETL/blob/main/ETL_clean_wiki_movies.ipynb) for code.
 
+![blank.png](https://github.com/KimberlyCrawford/PyBer_Analysis/blob/main/Resources/PyBer_sum_df.png)
+
 ## Deliverable 3: 
 The Kaggle data was extracted and transformed.
 See ETL_clean_kaggle_data file (https://github.com/KimberlyCrawford/Movies_ETL/blob/main/ETL_clean_kaggle_data.ipynb) for code.
+
+![blank.png](https://github.com/KimberlyCrawford/PyBer_Analysis/blob/main/Resources/PyBer_sum_df.png)
 
 ## Deliverable 4: 
 The Movie Database was created.
