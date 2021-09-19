@@ -38,7 +38,7 @@ See ETL_function_test file (https://github.com/KimberlyCrawford/Movies_ETL/blob/
 The Wikipedia Data was extracted and transformed.
 See ETL_clean_wiki_movies file (https://github.com/KimberlyCrawford/Movies_ETL/blob/main/ETL_clean_wiki_movies.ipynb) for code.
 
-![blank.png](https://github.com/KimberlyCrawford/PyBer_Analysis/blob/main/Resources/PyBer_sum_df.png)
+![Cleaned_wiki_movies_df.png](https://github.com/KimberlyCrawford/Movies_ETL/blob/main/Cleaned_wiki_movies_df.png)
 
 ## Deliverable 3: 
 The Kaggle data was extracted and transformed.
