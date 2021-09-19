@@ -48,4 +48,4 @@ See ETL_clean_kaggle_data file (https://github.com/KimberlyCrawford/Movies_ETL/b
 
 ## Deliverable 4: 
 The Movie Database was created.
-See ???
+See ETL_create_database file (https://github.com/KimberlyCrawford/Movies_ETL/blob/main/ETL_create_database.ipynb) for code.
