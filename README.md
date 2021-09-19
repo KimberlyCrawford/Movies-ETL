@@ -28,7 +28,7 @@ See ETL_function_test file (https://github.com/KimberlyCrawford/Movies_ETL/blob/
 
 ## Deliverable 2: 
 The Wikipedia Data was extracted and transformed.
-See ETL_clean_wiki_movies file for code.
+See ETL_clean_wiki_movies file (https://github.com/KimberlyCrawford/Movies_ETL/blob/main/ETL_clean_wiki_movies.ipynb) for code.
 
 ## Deliverable 3: 
 The Kaggle data was extracted and transformed.
