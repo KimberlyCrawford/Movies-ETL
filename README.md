@@ -42,7 +42,7 @@ See ETL_clean_wiki_movies file (https://github.com/KimberlyCrawford/Movies_ETL/b
 
 ## Deliverable 3: 
 The Kaggle data was extracted and transformed.
-See ETL_clean_kaggle_data file (https://github.com/KimberlyCrawford/Movies_ETL/blob/main/Cleaned_kaggle_metadata.png) for code.
+See ETL_clean_kaggle_data file (https://github.com/KimberlyCrawford/Movies_ETL/blob/main/ETL_clean_kaggle_data.ipynb) for code.
 
 ![Cleaned_kaggle_metadata.png](https://github.com/KimberlyCrawford/Movies_ETL/blob/main/Cleaned_kaggle_metadata.png)
 
