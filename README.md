@@ -28,7 +28,7 @@ See ETL_function_test file (https://github.com/KimberlyCrawford/Movies_ETL/blob/
 
 ![Three_arguments_function.png](https://github.com/KimberlyCrawford/Movies_ETL/blob/main/Three_arguments_function.png)
 
-![blank.png](https://github.com/KimberlyCrawford/PyBer_Analysis/blob/main/Resources/PyBer_sum_df.png)
+![Wiki_movies_df.png](https://github.com/KimberlyCrawford/Movies_ETL/blob/main/Wiki_movies_df.png)
 
 ![blank.png](https://github.com/KimberlyCrawford/PyBer_Analysis/blob/main/Resources/PyBer_sum_df.png)
 
