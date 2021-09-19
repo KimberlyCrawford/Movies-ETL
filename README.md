@@ -26,7 +26,7 @@ NOTE: The read_json method that comes built into the Pandas library only works w
 An ETL Function was written to read three data files and three separate dataframes were created.
 See ETL_function_test file (https://github.com/KimberlyCrawford/Movies_ETL/blob/main/ETL_function_test.ipynb) for code.
 
-![blank.png](https://github.com/KimberlyCrawford/PyBer_Analysis/blob/main/Resources/PyBer_sum_df.png)
+![Three_arguments_function.png](https://github.com/KimberlyCrawford/Movies_ETL/blob/main/Three_arguments_function.png)
 
 ![blank.png](https://github.com/KimberlyCrawford/PyBer_Analysis/blob/main/Resources/PyBer_sum_df.png)
 
