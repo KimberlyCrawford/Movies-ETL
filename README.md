@@ -30,7 +30,7 @@ See ETL_function_test file (https://github.com/KimberlyCrawford/Movies_ETL/blob/
 
 ![Wiki_movies_df.png](https://github.com/KimberlyCrawford/Movies_ETL/blob/main/Wiki_movies_df.png)
 
-![blank.png](https://github.com/KimberlyCrawford/PyBer_Analysis/blob/main/Resources/PyBer_sum_df.png)
+![kaggle_metadata.png](https://github.com/KimberlyCrawford/Movies_ETL/blob/main/kaggle_metadata.png)
 
 ![blank.png](https://github.com/KimberlyCrawford/PyBer_Analysis/blob/main/Resources/PyBer_sum_df.png)
 
