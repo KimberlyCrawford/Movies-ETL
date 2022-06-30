@@ -49,3 +49,5 @@ See ETL_clean_kaggle_data file (https://github.com/KimberlyCrawford/Movies_ETL/b
 ## Deliverable 4: 
 The Movie Database was created.
 See ETL_create_database file (https://github.com/KimberlyCrawford/Movies_ETL/blob/main/ETL_create_database.ipynb) for code.
+
+#### Module 8, Data Analysis & Visualization Certificate Program, UT Austin McCombs School of Business, 2021.
